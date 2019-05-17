@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html>
+
+<head id="heed">
+  <title>Hemberger Streaming</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="style/style.css" title="style" />
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+		<header>
+          <h1>Hemberger Streaming</h1>
+		  <h2>The #1 Streaming Service</h2>
+		</header>
+        </div>
+      </div>
+      <div id="menubar">
+		<nav>
+        <ul id="menu">
+          <li class="selected"><a href="index.html">Home</a></li>
+    
+        </ul>
+		</nav>
+      </div>
+    </div>
+	<body>
+	<?php
+	$connection=mysqli_connect("localhost","root","root","streamingservice");
+	if ($connection) {
+	echo "Connection Established! <br>";
+	}
+	else {
+	die("Connection failed. Reason:".mysqli_connect_error());
+	}
+	
+	?>
+	
+	</body>
+    <div id="site_content">
+      <div id="content">
+	  
+		
+</form>
+      </div>
+	  </div>
+ 
+    <div id="footer">
+      Copyright &copy; Hemberger Streaming Service
+    </div>
+  </div>
+</body>
+</html>
